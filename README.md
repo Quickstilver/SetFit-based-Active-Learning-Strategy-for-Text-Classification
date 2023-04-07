@@ -2,6 +2,7 @@
 
 This project presents a novel active learning strategy for text classification tasks, which combines the selection of unique examples and instances for which the model is uncertain. The strategy calculates prediction entropy on already labeled data to identify examples where the model is most uncertain and then uses prediction entropy again as a strategy for the unlabeled pool. The model is updated with query results from the unlabeled pool and the example in which the model was most uncertain. SetFit is used as the underlying model for this strategy.
 
+
 ## Project Highlights:
 
 - Designs an active learning strategy that selects novel examples and instances where the model is uncertain.
